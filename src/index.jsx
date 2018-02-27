@@ -1,7 +1,6 @@
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import App from './components/App/app';
-import Card from './components/Card/card';
 
 const root = document.getElementById('root');
 const load = () => render((

@@ -5,4 +5,9 @@ export default class App extends Component {
   state = {
     name: 'howto-neutrino'
   };
+  render() {
+    return (
+      <Card />
+    )
+  };
 };
