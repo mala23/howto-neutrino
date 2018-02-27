@@ -1,11 +1,7 @@
 import { Component } from 'react';
-import './App.css';
+import './card.css';
 
-export default class App extends Component {
-  state = {
-    name: 'howto-neutrino'
-  };
-
+export default class Card extends Component {
   render() {
     return (
       <article>
@@ -14,6 +10,6 @@ export default class App extends Component {
           <p>Company Name here...</p>
         </section>
       </article>
-    );
+    )
   };
 };
