@@ -1,7 +1,8 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import './app.css';
+import Card from '../Card';
 
-export default class App extends Component {
+class App extends Component {
   state = {
     name: 'howto-neutrino'
   };
@@ -11,3 +12,5 @@ export default class App extends Component {
     )
   };
 };
+
+export default App
