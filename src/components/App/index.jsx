@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './app.css';
-import Card from '../Card';
+import Counter from '../Counter';
 
 class App extends Component {
   state = {
@@ -8,7 +8,7 @@ class App extends Component {
   };
   render() {
     return (
-      <Card />
+      <Counter />
     )
   };
 };
