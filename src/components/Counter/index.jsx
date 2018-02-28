@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
 class Counter extends Component {
+  state = {
+    count: 0,
+  }
   render() {
     return (
       <section>
-        <p>Hello from Counter</p>
+        <p>Current count is: {this.state.count}</p>
       </section>
     )
   }
