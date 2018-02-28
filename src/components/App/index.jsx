@@ -1,11 +1,8 @@
-import React, { Component } from 'react';
-import './app.css';
-import Counter from '../Counter';
+import React, { Component } from 'react'
+import Counter from '../Counter'
+import styles from './app.module.css'
 
 class App extends Component {
-  state = {
-    name: 'howto-neutrino'
-  };
   render() {
     return (
       <Counter />

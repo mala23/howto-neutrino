@@ -1,0 +1,24 @@
+section {
+  margin: 5rem 0;
+  height: 100vh;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  background-color: #a2ad59;
+  border: none;
+  color: #EEE;
+  width: 90vw;
+  height: 15vw;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  bottom: 5vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+}
