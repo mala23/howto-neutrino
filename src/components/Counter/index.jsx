@@ -8,6 +8,7 @@ class Counter extends Component {
     return (
       <section>
         <p>Current count is: {this.state.count}</p>
+        <button>+</button>
       </section>
     )
   }
